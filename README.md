@@ -7,7 +7,7 @@ This repository is for a text-based game creator that is not yet developed. It w
 * The game will be open source and released under the MIT License.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the <a href="https://github.com/w3shivers/text-based-game-creator/blob/main/LICENSE">MIT License</a>.
 
 ## TODO
 * Test some concepts for structure of source code.

@@ -1,0 +1,26 @@
+{
+    "intro" : {
+        "message": "This is the intro...",
+        "input": "Hi __name__, left or right?",
+        "options" : {
+            "next_round" : "left",
+            "skip_round" : "right"
+        }
+    },
+    "next_round" : {
+        "message": "This is the next round.",
+        "input": "skip or intro?",
+        "options" : {
+            "intro" : "intro",
+            "skip_round" : "skip"
+        }
+    },
+    "skip_round" : {
+        "message": "This is the skip round.",
+        "input": "next or into?",
+        "options" : {
+            "next_round" : "next",
+            "intro" : "intro"
+        }
+    }
+}
