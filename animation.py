@@ -15,9 +15,8 @@ def clear():
 size = get_terminal_size()
 ascii_frames = []
 ascii_art = AsciiArt()
-ascii_art.height = size.lines
-ascii_art.width = size.lines * 2
 ascii_art.add_color = True
+# ascii_art.use_character = '#'
 image_list = glob(os_path.join('walking_duck_frames_all/', '*.jpg'))
 
 for image_file in sorted(image_list):
